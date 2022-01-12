@@ -102,6 +102,10 @@ p.form-subtitle {
   }
 }
 
+form {
+  width: 100%;
+}
+
 @media screen and (min-width: 1000px) {
   .form-container {
     width: 50%;
