@@ -1,0 +1,43 @@
+h1.logo {
+  font-family: "Italianno", cursive;
+  font-size: 3rem;
+  color: #000000f0;
+  cursor: pointer;
+}
+
+.container.navbar2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-block: 1rem;
+}
+
+.links-container a {
+  text-decoration: none;
+  color: #000000a0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.links-container a:hover {
+  cursor: pointer;
+  color: #000000;
+}
+
+@media screen and (min-width: 1000px) {
+  .container.navbar2 {
+    width: 60%;
+  }
+
+  .links-container a {
+    font-size: 1.1rem;
+  }
+}

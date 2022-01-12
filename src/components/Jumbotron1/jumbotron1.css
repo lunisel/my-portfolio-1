@@ -1,0 +1,115 @@
+.big-container {
+  margin-block: 1rem;
+}
+
+.container.jumbotron1 {
+  height: fit-content;
+  position: relative;
+  width: 100vw;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background-color: #beabb6;
+  opacity: 60%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.info-container {
+  width: 90%;
+  height: 100%;
+  z-index: 1;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 2rem 0;
+}
+
+img.profile-pic {
+  border-radius: 50%;
+  width: 40vw;
+  height: 40vw;
+  object-fit: cover;
+}
+
+p.jumbotron-title {
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #000000f0;
+}
+
+p.jumbotron-subtitle {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #00000090;
+}
+
+span.text {
+  margin-top: 0.5rem;
+  width: 95%;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #00000080;
+}
+
+.info-container button {
+  background-color: #8a93b7;
+  border: solid 2px #8a93b7;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.info-container button a {
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.info-container button:hover {
+  border: solid 2px #7e86a7;
+  background-color: #7e86a7;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+  img.profile-pic {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  p.jumbotron-title {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  p.jumbotron-subtitle {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  span.text {
+    margin-top: 1.5rem;
+    width: 70%;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  .info-container {
+    width: 70%;
+  }
+}
