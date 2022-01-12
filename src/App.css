@@ -6,11 +6,11 @@
 *::after {
   box-sizing: inherit;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 html {
   position: relative;
-  font-family: "Montserrat", sans-serif;
 }
 
 .big-container {

@@ -57,8 +57,8 @@ p.jumbotron-subtitle {
 }
 
 span.text {
-  margin-top: 0.5rem;
-  width: 95%;
+  margin-top: 1rem;
+  width: 90%;
   text-align: center;
   font-size: 0.9rem;
   font-weight: 700;
@@ -83,6 +83,12 @@ span.text {
   border: solid 2px #7e86a7;
   background-color: #7e86a7;
   cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+  span.text {
+    width: 70%;
+  }
 }
 
 @media screen and (min-width: 1000px) {
