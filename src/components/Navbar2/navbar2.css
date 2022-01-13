@@ -1,3 +1,7 @@
+.big-container#navbar {
+  padding-top: 1rem;
+}
+
 h1.logo {
   font-family: "Italianno", cursive;
   font-size: 3rem;

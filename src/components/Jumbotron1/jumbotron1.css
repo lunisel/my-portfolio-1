@@ -1,13 +1,9 @@
-.big-container {
-  margin-block: 1rem;
-}
-
 .container.jumbotron1 {
   height: fit-content;
   position: relative;
   width: 100vw;
   margin: auto;
-  padding: 1rem 0;
+  padding-top: 1rem;
 }
 
 .background {
@@ -40,6 +36,7 @@ img.profile-pic {
   width: 40vw;
   height: 40vw;
   object-fit: cover;
+  margin-bottom: 1rem;
 }
 
 p.jumbotron-title {
@@ -61,11 +58,11 @@ span.text {
   width: 90%;
   text-align: center;
   font-size: 0.9rem;
-  font-weight: 700;
-  color: #00000080;
+  font-weight: 600;
+  color: #00000070;
 }
 
-.info-container button {
+.info-container .link-to-footer {
   background-color: #8a93b7;
   border: solid 2px #8a93b7;
   margin-top: 1.5rem;
@@ -73,13 +70,13 @@ span.text {
   border-radius: 20px;
 }
 
-.info-container button a {
+.info-container .link-to-footer {
   font-size: 1.1rem;
   color: white;
   text-decoration: none;
 }
 
-.info-container button:hover {
+.info-container .link-to-footer:hover {
   border: solid 2px #7e86a7;
   background-color: #7e86a7;
   cursor: pointer;

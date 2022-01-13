@@ -18,9 +18,9 @@ const Jumbotron1 = () => {
             Are you interested in hiring someone for your company or are you
             interested in someone to help you build the website of your dreams?
           </span>
-          <button>
-            <Link to="#footer">Contact me</Link>
-          </button>
+          <a href="#footer" className="link-to-footer">
+            Contact me
+          </a>
         </div>
       </div>
     </div>

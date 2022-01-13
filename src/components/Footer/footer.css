@@ -68,6 +68,10 @@ p.form-subtitle {
   margin-top: 1rem;
 }
 
+.bottom-inputs button:hover {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 500px) {
   #footer {
     padding-top: 2rem;

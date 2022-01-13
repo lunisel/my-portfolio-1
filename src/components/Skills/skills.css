@@ -1,0 +1,66 @@
+.big-container#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
+
+.big-container#skills svg {
+  position: absolute;
+}
+
+.big-container#skills svg#top {
+  top: 0;
+}
+
+.big-container#skills svg#bottom {
+  bottom: 0;
+}
+
+#skills h2.skills-title {
+  font-size: 2.5rem;
+  color: #000000f0;
+  z-index: 2;
+  position: relative;
+  bottom: 2rem;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 90%;
+  padding: 2rem 0 0 0;
+}
+
+.skill {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill img {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 20%;
+  margin: auto;
+}
+
+.line {
+  width: 70%;
+}
+
+.line.one {
+  height: 2px;
+  background-color: #8a93b7;
+  margin-bottom: 3px;
+}
+
+.line.two {
+  height: 5px;
+  background-color: #d8ccd3;
+}

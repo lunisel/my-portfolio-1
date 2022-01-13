@@ -3,7 +3,7 @@ import "./navbar2.css";
 
 const Navbar2 = (props) => {
   return (
-    <div className="big-container">
+    <div className="big-container" id="navbar">
       <div className="container navbar2">
         <h1 className="logo" onClick={() => props.history.push("/")}>
           Luna Sarmiento
