@@ -39,9 +39,14 @@ h1.logo {
 @media screen and (min-width: 1000px) {
   .container.navbar2 {
     width: 60%;
+    margin-bottom: 0.5rem;
   }
 
   .links-container a {
     font-size: 1.1rem;
+  }
+
+  h1.logo {
+    font-size: 4rem;
   }
 }

@@ -1,0 +1,60 @@
+.big-container#section1 {
+  padding-block: 2rem;
+}
+
+#section1 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.left img {
+  width: 75%;
+  box-shadow: 6px 7px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.left .background-color {
+  width: 50%;
+  height: 85vw;
+  z-index: -1;
+  background-color: #8a93b7;
+  position: absolute;
+  top: 15%;
+  right: 0;
+  border-radius: 10px;
+}
+
+.right {
+  padding-top: 15%;
+}
+
+.section1-title {
+  margin-block: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.section1-subtext {
+  margin-bottom: 1rem;
+}
+
+.right div button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: solid 2px #8a93b7;
+  font-size: 1rem;
+  color: #8a93b7;
+}
+
+.right div button:hover {
+  background-color: #8a93b7;
+  border: solid 2px #8a93b7;
+  color: white;
+}
+
+@media screen and (min-width: 500px) {
+  .right {
+    padding-top: 1rem;
+  }
+}
