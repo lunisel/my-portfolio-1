@@ -51,10 +51,76 @@
   background-color: #8a93b7;
   border: solid 2px #8a93b7;
   color: white;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 500px) {
   .right {
     padding-top: 1rem;
+  }
+
+  .section1-title {
+    width: 40vw;
+  }
+
+  .section1-subtext {
+    width: 40vw;
+  }
+
+  .left .background-color {
+    height: 100vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #section1 .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-block: 3rem;
+  }
+
+  .right {
+    width: 28vw;
+  }
+
+  .section1-title {
+    width: 100%;
+  }
+
+  .section1-subtext {
+    width: 100%;
+  }
+
+  .left .background-color {
+    height: 100%;
+    width: 35vw;
+    top: 0;
+    left: 0;
+  }
+
+  .left img {
+    width: auto;
+    height: 85vh;
+    background-color: transparent;
+    margin-block: 2rem;
+    margin-left: 20%;
+  }
+
+  .section1-title {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .section1-subtext {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .right div button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
   }
 }

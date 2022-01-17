@@ -113,5 +113,6 @@ form {
 @media screen and (min-width: 1000px) {
   .form-container {
     width: 50%;
+    margin-top: 3rem;
   }
 }
