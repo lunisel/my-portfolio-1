@@ -3,7 +3,8 @@
   position: relative;
   width: 100vw;
   margin: auto;
-  padding-block: 3rem;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
 }
 
 .info-container {
@@ -107,8 +108,8 @@ span.text {
   }
 
   .container.jumbotron1 {
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 6%;
+    padding-bottom: 3%;
   }
 
   .info-container .link-to-footer {

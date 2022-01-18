@@ -1,13 +1,35 @@
 import { Link } from "react-router-dom";
 import { GoThreeBars, GoX } from "react-icons/go";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "../../assets/LogoWOName.png";
 import "./navbar1.css";
 
 const Navbar1 = () => {
   const [navToggle, setNavToggle] = useState(false);
+  const [visible, setVisible] = useState(true);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.pageYOffset;
+
+    setVisible(
+      (prevScrollPos > currentScrollPos &&
+        prevScrollPos - currentScrollPos > 70) ||
+        currentScrollPos < 10
+    );
+
+    setPrevScrollPos(currentScrollPos);
+  };
+
+  // new useEffect:
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos, visible, handleScroll]);
+
   return (
-    <nav id="main-nav">
+    <nav id="main-nav" style={{ top: visible ? "0" : "-8rem" }}>
       <div className="container">
         <div className="logo-container">
           <img src={logo} alt="logo" />

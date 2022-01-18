@@ -4,9 +4,9 @@ nav {
   height: fit-content;
   background-color: #d8cad3;
   position: fixed;
-  top: 0;
   padding: 0.5rem 0;
   z-index: 100;
+  transition: top 0.3s;
 }
 
 .container {
@@ -30,9 +30,9 @@ nav {
 ul {
   display: flex;
   justify-content: space-between;
-  width: 40%;
+  width: fit-content;
   padding: 0;
-  gap: 1rem;
+  gap: 2.5rem;
   z-index: 5;
 }
 

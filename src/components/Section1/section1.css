@@ -10,13 +10,13 @@
 }
 
 .left img {
-  width: 75%;
+  width: 65%;
   box-shadow: 6px 7px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 .left .background-color {
-  width: 50%;
-  height: 85vw;
+  width: 70%;
+  height: 75vw;
   z-index: -1;
   background-color: #8a93b7;
   position: absolute;
@@ -96,7 +96,7 @@
 
   .left .background-color {
     height: 100%;
-    width: 35vw;
+    width: 30vw;
     top: 0;
     left: 0;
   }

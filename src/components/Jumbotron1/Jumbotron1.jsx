@@ -3,7 +3,7 @@ import "./jumbotron1.css";
 
 const Jumbotron1 = () => {
   return (
-    <div className="big-container">
+    <div className="big-container" id="jumbotron">
       <div className="container jumbotron1">
         <div className="info-container">
           <p className="jumbotron-pretitle">Hi, my name is</p>
