@@ -2,11 +2,9 @@
   padding-top: 1rem;
 }
 
-h1.logo {
-  font-family: "Italianno", cursive;
-  font-size: 3rem;
-  color: #000000f0;
+img.logo {
   cursor: pointer;
+  width: 8rem;
 }
 
 .container.navbar2 {

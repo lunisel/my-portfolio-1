@@ -1,0 +1,21 @@
+.big-container#preloader {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f8f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-container#preloader img {
+  width: 15%;
+  -webkit-animation: rotation 2s linear;
+  -moz-animation: rotation 2s linear;
+  animation: rotation 2s linear;
+}
+
+@keyframes rotation {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
