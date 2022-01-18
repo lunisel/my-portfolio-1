@@ -3,7 +3,7 @@ import { Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home";
-import Navbar2 from "./components/Navbar2/Navbar2";
+import Navbar1 from "./components/Navbar1/Navbar1";
 import Preloader from "./components/Preloader/Preloader";
 import Sidebars from "./components/Sidebars/Sidebars";
 
@@ -25,7 +25,7 @@ function App() {
         <>
           <Sidebars />
           <BrowserRouter>
-            <Navbar2 />
+            <Navbar1 />
             <Route
               path="/"
               exact

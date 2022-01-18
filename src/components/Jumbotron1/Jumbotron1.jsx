@@ -5,15 +5,10 @@ const Jumbotron1 = () => {
   return (
     <div className="big-container">
       <div className="container jumbotron1">
-        <div className="background"></div>
         <div className="info-container">
-          <img
-            src="http://www.placehold.it/500x500"
-            alt="profile"
-            className="profile-pic"
-          />
-          <p className="jumbotron-title">Hi, I'm Luna Sarmiento.</p>
-          <p className="jumbotron-subtitle">Full stack Web Developer</p>
+          <p className="jumbotron-pretitle">Hi, my name is</p>
+          <p className="jumbotron-title">Luna Sarmiento.</p>
+          <p className="jumbotron-subtitle">Full stack Web Developer.</p>
           <span className="text">
             Are you interested in hiring someone for your company or are you
             interested in someone to help you build the website of your dreams?

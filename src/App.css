@@ -23,3 +23,7 @@ html {
   width: 90%;
   margin: auto;
 }
+
+.home-container {
+  padding-top: 8rem;
+}
