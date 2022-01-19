@@ -40,17 +40,21 @@
 }
 
 .right div button {
-  padding: 0.5rem 1rem;
+  width: 40%;
   background-color: transparent;
-  border: solid 2px #8a93b7;
+  border: solid 1px #000000c0;
+  margin-top: 2.5rem;
+  padding: 1rem;
+  border-radius: 5px;
   font-size: 1rem;
-  color: #8a93b7;
+  color: #000000c0;
+  text-decoration: none;
+  text-align: center;
 }
 
 .right div button:hover {
-  background-color: #8a93b7;
-  border: solid 2px #8a93b7;
-  color: white;
+  border: solid 1px #d8cbd3;
+  background-color: #d8cbd3;
   cursor: pointer;
 }
 
@@ -69,6 +73,11 @@
 
   .left .background-color {
     height: 100vw;
+  }
+
+  .right div button {
+    width: 30%;
+    margin-top: 3rem;
   }
 }
 
@@ -117,10 +126,11 @@
   .section1-subtext {
     font-size: 1.2rem;
     line-height: 2rem;
+    margin-top: 2rem;
   }
 
   .right div button {
-    padding: 1rem 2rem;
-    font-size: 1.5rem;
+    width: 40%;
+    margin-top: 2rem;
   }
 }

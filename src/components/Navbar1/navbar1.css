@@ -27,17 +27,17 @@ nav {
   width: 7rem;
 }
 
-ul {
+ul.nav-links-container {
   display: flex;
   justify-content: space-between;
   width: fit-content;
   padding: 0;
   gap: 2.5rem;
-  z-index: 5;
+  z-index: 100;
 }
 
-li,
-li a {
+.nav-links-container li,
+.nav-links-container li a {
   text-decoration: none;
   list-style: none;
   color: #000000c0;
@@ -58,7 +58,7 @@ li a.active {
 }
 
 @media screen and (max-width: 700px) {
-  ul {
+  ul.nav-links-container {
     position: fixed;
     flex-direction: column;
     justify-content: space-around;
@@ -73,7 +73,7 @@ li a.active {
     transition: all 1000ms ease;
   }
 
-  ul li {
+  ul.nav-links-container li {
     display: none;
   }
 

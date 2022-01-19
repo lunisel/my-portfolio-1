@@ -29,7 +29,9 @@ export default class Navbar1 extends React.Component {
     this.setState({
       ...this.state,
       scrollPos: document.body.getBoundingClientRect().top,
-      show: document.body.getBoundingClientRect().top > this.state.scrollPos,
+      show: this.state.navToggle
+        ? true
+        : document.body.getBoundingClientRect().top > this.state.scrollPos,
     });
   };
 
