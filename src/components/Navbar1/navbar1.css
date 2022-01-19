@@ -65,7 +65,7 @@ li a.active {
     align-items: center;
     right: 0;
     height: 81vh;
-    width: 0;
+    width: 50%;
     top: 8rem;
     opacity: 0;
     background-color: #f8f8f0;
@@ -99,7 +99,6 @@ li a.active {
   ul.nav-links-container.active {
     transform: translateX(0);
     opacity: 1;
-    width: 50%;
   }
 
   ul.nav-links-container.active li {
