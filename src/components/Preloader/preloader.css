@@ -8,7 +8,7 @@
 }
 
 .big-container#preloader img {
-  width: 15%;
+  width: 15rem;
   -webkit-animation: rotation 2s linear;
   -moz-animation: rotation 2s linear;
   animation: rotation 2s linear;
