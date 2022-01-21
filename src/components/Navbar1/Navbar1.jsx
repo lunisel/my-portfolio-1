@@ -78,17 +78,17 @@ export default class Navbar1 extends React.Component {
             ref={this.ref}
           >
             <li>
-              <a href="#jumbotron" className="nav-link">
+              <a href="/" className="nav-link">
                 HOME
               </a>
             </li>
             <li>
-              <a href="/" className="nav-link">
+              <a href="/#about-me" className="nav-link">
                 ABOUT ME
               </a>
             </li>
             <li>
-              <Link to="/" className="nav-link">
+              <Link to="/portfolio" className="nav-link">
                 PORTFOLIO
               </Link>
             </li>

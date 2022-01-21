@@ -1,6 +1,6 @@
 import "./section1.css";
 
-const Section1 = () => {
+const Section1 = ({ props }) => {
   return (
     <div className="big-container" id="section1">
       <div className="container">
@@ -20,7 +20,7 @@ const Section1 = () => {
               Look through my portfolio and see if there is something that
               catches your eye
             </p>
-            <button>See more</button>
+            <a href="/portfolio">See more</a>
           </div>
         </div>
       </div>
