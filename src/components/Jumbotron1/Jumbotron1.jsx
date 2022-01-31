@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./jumbotron1.css";
 
 const Jumbotron1 = () => {

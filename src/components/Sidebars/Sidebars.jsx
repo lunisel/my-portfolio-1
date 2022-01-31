@@ -10,6 +10,7 @@ const Sidebars = () => {
             className="social-logo"
             href="https://www.instagram.com/lunisel"
             target="_blank"
+            rel="noreferrer"
           >
             <BsInstagram />
           </a>
@@ -17,6 +18,7 @@ const Sidebars = () => {
             className="social-logo"
             href="https://www.linkedin.com/in/lunisel"
             target="_blank"
+            rel="noreferrer"
           >
             <BsLinkedin />
           </a>
@@ -24,6 +26,7 @@ const Sidebars = () => {
             className="social-logo"
             href="https://github.com/lunisel"
             target="_blank"
+            rel="noreferrer"
           >
             <BsGithub />
           </a>

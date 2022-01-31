@@ -1,13 +1,14 @@
 .big-container#portfolio {
   padding-top: 8rem;
-  z-index: 2;
 }
 
 #portfolio .container {
+  position: relative;
   margin-top: 4rem;
   display: flex;
   flex-direction: column;
   align-content: center;
+  z-index: 2;
 }
 
 #portfolio h1 {
