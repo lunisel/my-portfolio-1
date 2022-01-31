@@ -12,12 +12,11 @@ const AboutMe = () => {
         <div className="about-me-content-container">
           <div className="text-cont">
             <p>
-              Hi ! My name is Luna, I'm 22 and I love to code websites. The
-              thing that I like most about this field is the fact that it allows
-              me to be creative while using my logical thinking skills. Thanks
-              to my previous experiences, I'm really good at{" "}
-              <span>working in teams</span> and I'm also very{" "}
-              <span>patient</span>.
+              Hi ! I'm 22 and I love to code websites. The thing that I like
+              most about this field is the fact that it allows me to be creative
+              while using my logical thinking skills. Thanks to my previous
+              experiences, I'm really good at <span>working in teams</span> and
+              I'm also very <span>patient</span>.
             </p>
             <p>
               I joined <span>Strive School</span> in May 2021 and it changed my
