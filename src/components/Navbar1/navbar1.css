@@ -57,7 +57,26 @@ li a.active {
   pointer-events: none;
 }
 
-@media screen and (max-width: 700px) {
+a.cv-button {
+  width: fit-content;
+  background-color: transparent;
+  border: solid 1px #000000c0;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #000000c0;
+  text-decoration: none;
+  text-align: center;
+}
+
+a.cv-button:hover {
+  font-weight: 500;
+  border: solid 1px #8a93b7;
+  background-color: #8a93b7;
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
   ul.nav-links-container {
     position: fixed;
     flex-direction: column;

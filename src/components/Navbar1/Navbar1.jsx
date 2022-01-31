@@ -3,6 +3,7 @@ import { GoThreeBars, GoX } from "react-icons/go";
 import React from "react";
 import logo from "../../assets/LogoWOName.png";
 import "./navbar1.css";
+import cv from "../../assets/CV.pdf";
 
 export default class Navbar1 extends React.Component {
   constructor() {
@@ -95,6 +96,11 @@ export default class Navbar1 extends React.Component {
             <li>
               <a href="#footer" className="nav-link">
                 CONTACT ME
+              </a>
+            </li>
+            <li>
+              <a href={cv} className="cv-button" download>
+                Download CV
               </a>
             </li>
           </ul>

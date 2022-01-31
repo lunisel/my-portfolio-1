@@ -136,12 +136,19 @@
   }
 
   #about-me .img-cont {
-    margin-right: 3rem;
     height: fit-content;
+    margin-inline: 1rem;
+    margin-left: 4rem;
   }
 
   .about-me-title-cont h1 {
     font-size: 4rem;
     font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #about-me .text-cont {
+    width: 80%;
   }
 }

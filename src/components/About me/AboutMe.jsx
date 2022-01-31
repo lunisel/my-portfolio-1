@@ -12,16 +12,18 @@ const AboutMe = () => {
         <div className="about-me-content-container">
           <div className="text-cont">
             <p>
-              Hi ! My name is Luna and I love to Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Ipsam ut officia nisi, dolore quo
-              impedit, dolores suscipit necessitatibus accusamus aliquam ratione
-              laborum, amet dolor sunt possimus <span>fugiat omnis fugit</span>{" "}
-              voluptatum.
+              Hi ! My name is Luna, I'm 22 and I love to code websites. The
+              thing that I like most about this field is the fact that it allows
+              me to be creative while using my logical thinking skills. Thanks
+              to my previous experiences, I'm really good at{" "}
+              <span>working in teams</span> and I'm also very{" "}
+              <span>patient</span>.
             </p>
             <p>
-              Ipsam ut officia nisi, dolore quo impedit, dolores suscipit
-              necessitatibus accusamus aliquam ratione laborum, amet dolor sunt
-              possimus fugiat omnis fugit <span>voluptatum</span>.
+              I joined <span>Strive School</span> in May 2021 and it changed my
+              life because it allowed me to build a lot of team and individual
+              projects developed in a fully <span>remote</span> and{" "}
+              <span>international</span> enviroment.
             </p>
             <p>
               Here are a few of the technologies I've been working with
@@ -58,7 +60,10 @@ const AboutMe = () => {
             </ul>
           </div>
           <div className="img-cont">
-            <img src="http://placehold.it/500x500" alt="my face" />
+            <img
+              src="https://res.cloudinary.com/lunisel/image/upload/v1643645564/mioPortfolio/Schermata_2022-01-31_alle_1.20.38_PM_obg8cy.jpg"
+              alt="my face"
+            />
             <div className="border"></div>
           </div>
         </div>
