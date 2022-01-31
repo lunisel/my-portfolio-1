@@ -23,7 +23,7 @@ const AboutMe = () => {
               I joined <span>Strive School</span> in May 2021 and it changed my
               life because it allowed me to build a lot of team and individual
               projects developed in a fully <span>remote</span> and{" "}
-              <span>international</span> enviroment.
+              <span>international</span> environment.
             </p>
             <p>
               Here are a few of the technologies I've been working with
