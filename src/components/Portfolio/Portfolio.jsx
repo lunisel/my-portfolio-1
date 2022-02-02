@@ -15,6 +15,8 @@ const Portfolio = () => {
             <p>
               This is a social media for pet owners, where you can keep in touch
               with friends in your area and keep track of all your pet's needs.
+              This is still a beta version, to log-in use email: ari@yahoo.it
+              and password: password
             </p>
             <a
               href="https://pet-book-frontentd.vercel.app"
@@ -32,7 +34,8 @@ const Portfolio = () => {
             <h3>Risi Graph</h3>
             <p>
               This is the portfolio I made for a friend of mine. It's meant to
-              show to his potencial clients all of his renders.
+              show to his potencial clients all of his renders, but it's still a
+              work in progress
             </p>
             <a
               href="https://risigraphstudio.vercel.app"
