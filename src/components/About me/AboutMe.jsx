@@ -12,17 +12,25 @@ const AboutMe = () => {
         <div className="about-me-content-container">
           <div className="text-cont">
             <p>
-              Hi ! I'm 22 and I love to code websites. The thing that I like
-              most about this field is the fact that it allows me to be creative
-              while using my logical thinking skills. Thanks to my previous
-              experiences, I'm really good at <span>working in teams</span> and
-              I'm also very <span>patient</span>.
-            </p>
-            <p>
-              I joined <span>Strive School</span> in May 2021 and it changed my
-              life because it allowed me to build a lot of team and individual
-              projects developed in a fully <span>remote</span> and{" "}
-              <span>international</span> environment.
+              Hi! I'm a <span>software developer</span> with a passion for
+              crafting engaging, functional, and visually appealing
+              <span>web</span> and <span>mobile applications</span>. What
+              excites me most about this field is the perfect blend of
+              <span>creativity</span> and <span>logical problem-solving</span>
+              —every project is a new challenge to bring ideas to life.
+              Currently, I work at <span>Enhancers</span>, where I develop
+              applications using <span>React Native</span>, continuously
+              refining my skills in both <span>front-end</span> and
+              <span>mobile development</span>. Through my past experiences, I've
+              honed my ability to <span>collaborate effectively in teams</span>
+              and maintain a <span>patient, solution-oriented mindset</span>
+              even under pressure. In May 2021, I joined
+              <span>Strive School</span>, a transformative experience that
+              allowed me to develop numerous <span>team-based</span> and
+              <span>individual projects</span> in a fully
+              <span>remote, international environment</span>. This journey not
+              only strengthened my technical skills but also refined my ability
+              to adapt and excel in dynamic, fast-paced settings.
             </p>
             <p>
               Here are a few of the technologies I've been working with
@@ -42,13 +50,13 @@ const AboutMe = () => {
                 <TiStarOutline /> TypeScript
               </li>
               <li>
-                <TiStarOutline /> React
+                <TiStarOutline /> React.js
               </li>
               <li>
                 <TiStarOutline /> Node.js
               </li>
               <li>
-                <TiStarOutline /> Express
+                <TiStarOutline /> React Native
               </li>
               <li>
                 <TiStarOutline /> Bootstrap
