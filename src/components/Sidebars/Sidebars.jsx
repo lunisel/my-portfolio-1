@@ -34,7 +34,7 @@ const Sidebars = () => {
         <div className="line"></div>
       </div>
       <div className="mail-container">
-        <a className="mail" href="mailto: lunisel99@gmail.com">
+        <a className="mail" href="mailto:lunisel99@gmail.com">
           lunisel99@gmail.com
         </a>
         <div className="line"></div>

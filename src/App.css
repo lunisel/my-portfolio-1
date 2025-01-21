@@ -13,8 +13,8 @@ html {
   position: relative;
   background-color: #f8f8f0;
 }
-p,
-span {
+p:hover,
+span:hover {
   cursor: text;
 }
 

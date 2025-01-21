@@ -16,15 +16,14 @@ const AboutMe = () => {
               crafting engaging, functional, and visually appealing{" "}
               <span>web</span> and <span>mobile applications</span>. What
               excites me most about this field is the perfect blend of{" "}
-              <span>creativity</span> and <span>logical problem-solving</span>
-              —every project is a new challenge to bring ideas to life.
+              <span>creativity</span> and <span>logical problem-solving</span>.
             </p>
             <p>
               Currently, I work at <span>Enhancers</span>, where I develop
               applications using <span>React Native</span>, continuously
               refining my skills in both <span>front-end</span> and{" "}
               <span>mobile development</span>. Through my past experiences, I've
-              honed my ability to <span>collaborate effectively in teams</span>{" "}
+              honed my ability to collaborate effectively in <span>teams</span>{" "}
               and maintain a <span>patient, solution-oriented mindset</span>{" "}
               even under pressure.
             </p>
@@ -36,39 +35,6 @@ const AboutMe = () => {
               not only strengthened my technical skills but also refined my
               ability to adapt and excel in dynamic, fast-paced settings.
             </p>
-            <p>
-              Here are a few of the technologies I've been working with
-              recently:
-            </p>
-            <ul>
-              <li>
-                <TiStarOutline /> HTML5
-              </li>
-              <li>
-                <TiStarOutline /> CSS3
-              </li>
-              <li>
-                <TiStarOutline /> JavaScript
-              </li>
-              <li>
-                <TiStarOutline /> TypeScript
-              </li>
-              <li>
-                <TiStarOutline /> React.js
-              </li>
-              <li>
-                <TiStarOutline /> Node.js
-              </li>
-              <li>
-                <TiStarOutline /> React Native
-              </li>
-              <li>
-                <TiStarOutline /> Bootstrap
-              </li>
-              <li>
-                <TiStarOutline /> Redux
-              </li>
-            </ul>
           </div>
           <div className="img-cont">
             <img
@@ -76,6 +42,95 @@ const AboutMe = () => {
               alt="my face"
             />
             <div className="border"></div>
+          </div>
+        </div>
+        <div className="skills-container">
+          <p>
+            Here are a few of the technologies I've been working with recently:
+          </p>
+          <div className="skills-list-container">
+            <div className="skills-list">
+              <span>Languages</span>
+              <ul>
+                <li>
+                  <TiStarOutline /> HTML5
+                </li>
+                <li>
+                  <TiStarOutline /> CSS3
+                </li>
+                <li>
+                  <TiStarOutline /> JavaScript
+                </li>
+                <li>
+                  <TiStarOutline /> TypeScript
+                </li>
+              </ul>
+            </div>
+            <div className="skills-list">
+              <span>FrontEnd frameworks</span>
+              <ul>
+                <li>
+                  <TiStarOutline /> React.js
+                </li>
+                <li>
+                  <TiStarOutline /> React Native
+                </li>
+                <li>
+                  <TiStarOutline /> Next.js
+                </li>
+                <li>
+                  <TiStarOutline /> Vite
+                </li>
+              </ul>
+            </div>
+            <div className="skills-list">
+              <span>BackEnd</span>
+              <ul>
+                <li>
+                  <TiStarOutline /> Node.js
+                </li>
+                <li>
+                  <TiStarOutline /> Express
+                </li>
+                <li>
+                  <TiStarOutline /> REST APIs
+                </li>
+                <li>
+                  <TiStarOutline /> MongoDB
+                </li>
+              </ul>
+            </div>
+            <div className="skills-list">
+              <span>Git providers</span>
+              <ul>
+                <li>
+                  <TiStarOutline /> GitHub
+                </li>
+                <li>
+                  <TiStarOutline /> AWS code commit
+                </li>
+                <li>
+                  <TiStarOutline /> BitBucket
+                </li>
+              </ul>
+            </div>
+            <div className="skills-list">
+              <span>Other technologies</span>
+              <ul>
+                <li>
+                  <TiStarOutline /> xCode
+                </li>
+                <li>
+                  <TiStarOutline /> Android Studio
+                </li>
+                <li>
+                  <TiStarOutline /> Miro / Figram
+                </li>
+                <li>
+                  <TiStarOutline /> Jira
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

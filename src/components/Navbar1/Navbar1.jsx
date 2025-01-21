@@ -27,13 +27,14 @@ export default class Navbar1 extends React.Component {
   }
 
   handleScroll = () => {
-    this.setState({
-      ...this.state,
-      scrollPos: document.body.getBoundingClientRect().top,
-      show: this.state.navToggle
+    const currentScrollPos = window.scrollY;
+
+    this.setState((prevState) => ({
+      scrollPos: currentScrollPos,
+      show: prevState.navToggle
         ? true
-        : document.body.getBoundingClientRect().top > this.state.scrollPos,
-    });
+        : prevState.scrollPos > currentScrollPos || currentScrollPos < 10,
+    }));
   };
 
   clickOut = (e) => {
